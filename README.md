@@ -36,6 +36,6 @@ Este repositório contém o código de um projeto desenvolvido com foco em inges
 - Configurar o openai_key no arquivo streamlit.py
 
 
-## by chat gepeto
+## README by chat gepeto
 ## Valeu Thiago 🌊🤙
 
