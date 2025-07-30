@@ -24,6 +24,45 @@ Este repositório contém o código de um projeto desenvolvido com foco em inges
 
 ---
 
+# ⚙️ Instruções para Execução
+
+
+#### Suba os containers (MongoDB, Kafka e Zookeeper):
+
+```bash
+docker-compose up -d
+```
+
+#### Crie o tópico no Kafka:
+
+```bash
+python create-topic-kafka.py
+```
+
+#### Execute o produtor Kafka (em um terminal separado):
+
+```bash
+python create-producer-kafka.py
+```
+
+#### Execute o consumidor Kafka (em outro terminal):
+
+```bash
+python create-consumer-kafka.py
+```
+
+
+#### Inicie a interface Streamlit:
+
+```bash
+streamlit run streamlit.py
+```
+
+---
+
+## ⚠️ Atenção
+Configure sua chave da OpenAI (openai_key) no arquivo streamlit.py.
+
 ## 👨‍💻 Integrantes do Grupo
 
 - Lucas Mesquita Oliveira  
